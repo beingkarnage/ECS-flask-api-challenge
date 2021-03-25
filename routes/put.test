@@ -1,0 +1,11 @@
+curl -X PUT http://localhost:5000/course/201 \
+     -H 'Content-Type: application/json' \
+     -d '{
+  "image_path": "images/some/path/foo.jpg",
+  "discount_price": 5,
+  "id": 201,
+  "price": 25,
+  "title": "Blah blah blah",
+  "on_discount": false,
+  "description": "New description"
+}'

@@ -1,0 +1,8 @@
+curl -X POST http://localhost:5000/course  -H 'Content-Type: application/json'  -d '{
+"description": "This is a brand new course",
+"discount_price": 5,
+"title": "Brand new course",
+"price": 25,
+"image_path": "images/some/path/foo.jpg",
+"on_discount": false
+}'
